@@ -159,18 +159,6 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &63229276
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 63229273}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f53edda6d4ad6cb4b93d04213e9a7b9e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &408410683
 GameObject:
   m_ObjectHideFlags: 3
@@ -252,6 +240,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 100000, guid: b8054f1201b0b450dbfef64dcd0c200b, type: 3}
+      propertyPath: m_TagString
+      value: fish
+      objectReference: {fileID: 0}
     - target: {fileID: 100072, guid: b8054f1201b0b450dbfef64dcd0c200b, type: 3}
       propertyPath: m_Name
       value: SimpleSardine
@@ -262,7 +254,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100072, guid: b8054f1201b0b450dbfef64dcd0c200b, type: 3}
       propertyPath: m_TagString
-      value: Untagged
+      value: Finish
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: b8054f1201b0b450dbfef64dcd0c200b, type: 3}
       propertyPath: m_LocalScale.x
@@ -418,7 +410,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530361530}
-  m_LocalRotation: {x: 0.13505939, y: -0.000000017048729, z: 0.0000000023238833, w: 0.9908375}
+  m_LocalRotation: {x: 0.1350594, y: 0.000000017048727, z: -0.0000000023238835, w: 0.9908375}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -984,7 +976,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.11701423, y: -0.000000035228183, z: 0.000000004150713, w: 0.99313027}
+  m_LocalRotation: {x: 0.11701423, y: 0.000000035228183, z: -0.000000004150713, w: 0.99313027}
   m_LocalPosition: {x: 0, y: 5, z: -44.22}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
@@ -1164,6 +1156,7 @@ GameObject:
   - component: {fileID: 1318500198}
   - component: {fileID: 1318500197}
   - component: {fileID: 1318500196}
+  - component: {fileID: 1318500201}
   m_Layer: 0
   m_Name: fishball
   m_TagString: fishball
@@ -1258,6 +1251,18 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1318500201
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1318500195}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5b915b28775f54fb89e913e63f8c58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1391076469
 GameObject:
   m_ObjectHideFlags: 3
@@ -1450,7 +1455,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1827622349}
-  m_LocalRotation: {x: 0.11701422, y: -0.000000017614088, z: 0.0000000020753559, w: 0.99313027}
+  m_LocalRotation: {x: 0.11701422, y: 0.000000017614093, z: -0.0000000020753566, w: 0.99313027}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:

@@ -13,7 +13,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{B2B58FB2-4462-6B0C-A872-40DD957E5FE0}</ProjectGuid>
+    <ProjectGuid>{95FCB70C-DBC6-C346-08E5-25B4DDA2F559}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -58,6 +58,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\CamSwitch.cs" />
+    <Compile Include="Assets\Disappear.cs" />
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\Sardine\Scripts\IwasiMove.cs" />
     <Compile Include="Assets\Sardine\Scripts\IwasiOcean.cs" />
@@ -67,7 +68,6 @@
     <Compile Include="Assets\Sardine\Scripts\SardineCameraScript.cs" />
     <Compile Include="Assets\Sardine\Scripts\SardineCharacter.cs" />
     <Compile Include="Assets\Sardine\Scripts\SardineUserController.cs" />
-    <Compile Include="Assets\destroy.cs" />
     <Compile Include="Assets\fishball.cs" />
     <None Include="Assets\Sardine\ReadMe.txt" />
     <Reference Include="UnityEngine">
@@ -599,37 +599,37 @@
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.14f1/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline.Editor">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Cinemachine">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
     </Reference>
     <Reference Include="Unity.VSCode.Editor">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.UI">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Timeline">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
     </Reference>
     <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.Rider.Editor">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.cinemachine.editor">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.UI">
-      <HintPath>C:/World/Projects/Unity/CS831/New Unity Project/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+      <HintPath>C:/World/Projects/Unity/CS831/HW/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
