@@ -6,11 +6,13 @@ public class Disappear : MonoBehaviour
 {
 
     // Update is called once per frame
-    void OnCollisionEnter(Collision other)
+    void OnTriggerEnter(Collider other)
     {
+        Debug.Log(other.gameObject.tag);
         if (other.gameObject.tag.Equals("fishball"))
         {
-            Destroy(gameObject);
+
+            Destroy(other.gameObject);
         }
     }
 }
